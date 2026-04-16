@@ -1,4 +1,4 @@
-const API = "http://localhost:5000/todos";
+const API = "https://to-do-app-dhnk.onrender.com/todos";
 
 async function loadTodos() {
   const res = await fetch(API);
